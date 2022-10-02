@@ -1,0 +1,1948 @@
+*{padding:0px;margin:0px;border:none}*,*::before,*::after{box-sizing:border-box}a,a:link,a:visited{text-decoration:none}a:hover{text-decoration:none}aside,nav,footer,header,section,main{display:block}h1,h2,h3,h4,h5,h6,p{font-size:inherit;font-weight:inherit}ul,ul li{list-style:none}img{vertical-align:top}img,svg{max-width:100%;height:auto}input,textarea,button,select{font-family:inherit;font-size:inherit;color:inherit;background-color:rgba(0,0,0,0)}input::-ms-clear{display:none}button,input[type=submit]{display:inline-block;box-shadow:none;background-color:rgba(0,0,0,0);background:none;cursor:pointer}input:focus,input:active,button:focus,button:active{outline:none}button::-moz-focus-inner{padding:0;border:0}label{cursor:pointer}legend{display:block}
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	/*outline: none;*/
+}
+
+a:focus,
+a:active {
+	/* outline: none;*/
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    /* color: inherit; */
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover  {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+.container{width:1190px;margin:0 auto;padding:0 10px}.header{min-width:295px;background:linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);height:1080px}.authorization a{color:#fcfcfc}.header-nav{display:flex;align-items:center}.authorization{display:flex;-moz-column-gap:29px;column-gap:29px;font-family:"Roboto";font-weight:400;font-size:18px;align-items:center}.logo{margin-right:752px}.header-nav{padding-top:45px}.registration{padding:10px;border:2px solid #fff;border-radius:5px}.header-img{margin-top:2px}.header-title{font-family:"Roboto";font-weight:700;font-size:64px;text-align:center;color:#fcfcfc}.header-subtitle{max-width:970px;font-family:"Roboto";font-weight:400;font-size:24px;text-align:center;color:#f2f2f2;margin:0 auto 0 auto;margin-top:30px}.group-bubbles{position:absolute;left:120px;top:775px}.header-button{background:#d75c78;border-radius:5px;width:370px;margin:0 375px;margin-top:70px}.button-text{font-family:"Roboto";font-weight:400;font-size:36px;line-height:42px;color:#fff;padding:20px 59px}.instruction{background:linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);margin-top:-1px;min-width:295px}.bubless-item1{position:absolute;left:129px;top:1373px}.bubless-item2{position:absolute;left:1325px;top:2351px}.bubless-item3{position:absolute;left:236px;top:1826px}.bubless-item4{position:absolute;left:1331px;top:2351px}.auqa{margin-left:755px;margin-top:-500px}.instruction1{width:550px;height:317px;filter:drop-shadow(5px 22px 33px rgba(0, 0, 0, 0.25));border-radius:5px;background:#523a64}.instruction1-aqua{padding-top:350px}.number1{font-family:"Roboto";font-weight:900;font-size:96px;line-height:112px;padding-top:45px;color:#944b6e;margin-left:-27px}.number1 b{background:linear-gradient(to right, #BFE2FF, #944B6E 50%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}.number-instruction1{display:flex}.instuction-h2-1{padding-top:85px;padding-left:7px;font-family:"Roboto";font-weight:700;font-size:24px;color:#f2f2f2;max-width:246.14px}.instruction-h31-1{padding-top:25px;padding-left:87px;font-family:"Roboto";font-weight:400;font-size:18px;color:#f2f2f2}.instruction2{width:550px;height:317px;filter:drop-shadow(5px 22px 33px rgba(0, 0, 0, 0.25));border-radius:5px;background:#523a64}.instruction2-aqua{margin-top:652px;margin-left:-200px}.number2{font-family:"Roboto";font-weight:900;font-size:96px;line-height:112px;padding-top:45px;color:#944b6e;margin-left:-27px}.number2 b{background:linear-gradient(to right, #BFE2FF, #944B6E 50%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}.number-instruction2{display:flex}.instuction-h2-2{padding-top:85px;padding-left:7px;font-family:"Roboto";font-weight:700;font-size:24px;color:#f2f2f2;max-width:350px}.instruction-h31-2{padding-top:25px;padding-left:87px;font-family:"Roboto";font-weight:400;font-size:18px;color:#f2f2f2}.group-list1{display:flex}.instuction-h2-3{padding-top:85px;padding-left:7px;font-family:"Roboto";font-weight:700;font-size:24px;color:#f2f2f2;max-width:246.14px}.instruction-h31-3{padding-top:25px;padding-left:87px;font-family:"Roboto";font-weight:400;font-size:18px;color:#f2f2f2}.instruction3{width:550px;height:317px;filter:drop-shadow(5px 22px 33px rgba(0, 0, 0, 0.25));border-radius:5px;background:#523a64}.instruction3-aqua{margin-top:-30px}.number3{font-family:"Roboto";font-weight:900;font-size:96px;line-height:112px;padding-top:45px;color:#944b6e;margin-left:-27px}.number3 b{background:linear-gradient(to right, #BFE2FF, #944B6E 50%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}.number-instruction3{display:flex}.instuction-h2-3{padding-top:85px;padding-left:7px;font-family:"Roboto";font-weight:700;font-size:24px;color:#f2f2f2;max-width:350px}.instruction-h31-3{padding-top:25px;padding-left:87px;font-family:"Roboto";font-weight:400;font-size:18px;color:#f2f2f2}.instuction-h2-4{padding-top:85px;padding-left:7px;font-family:"Roboto";font-weight:700;font-size:24px;color:#f2f2f2;max-width:246.14px}.instruction-h31-4{padding-top:25px;padding-left:87px;font-family:"Roboto";font-weight:400;font-size:18px;color:#f2f2f2}.instruction4{width:550px;height:262px;filter:drop-shadow(5px 22px 33px rgba(0, 0, 0, 0.25));border-radius:5px;background:#523a64}.number4{font-family:"Roboto";font-weight:900;font-size:96px;line-height:112px;padding-top:45px;color:#944b6e;margin-left:-27px}.number4 b{background:linear-gradient(to right, #BFE2FF, #944B6E 50%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}.number-instruction4{display:flex}.instuction-h2-4{padding-top:85px;padding-left:7px;font-family:"Roboto";font-weight:700;font-size:24px;color:#f2f2f2;max-width:350px}.instruction-h31-4{padding-top:25px;padding-left:87px;font-family:"Roboto";font-weight:400;font-size:18px;color:#f2f2f2}.group-list2{display:flex}.instruction4-aqua{margin-top:235px;margin-left:70px}.aqua2{position:absolute;left:44px;top:2425px}.h1-watch{font-family:"Roboto";font-weight:700;font-size:64px;width:652px;color:#f6f6f6;margin-top:286px;padding-bottom:90px}.button-play{min-width:300px;background:#414141;height:655px;min-width:295px}.button-play-icon{padding-top:219px;margin-left:430px}.prices{min-width:300px;margin-top:-1px;background:linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);height:1400px;min-width:295px}.ship{position:absolute;top:3814px;right:1px}.free-price{padding-top:314px}.free-bg{background:url(2f22f4f7157c3ea0bf5b.png) no-repeat center top}.free-bg{max-width:500px;height:562px}.free{font-family:"Roboto";font-weight:700;font-size:48px;color:#fff;padding-top:75px;padding-left:65px;padding-right:65px}.test{font-family:"Roboto";font-weight:500;font-size:24px;color:#f2f2f2;margin-top:40px;padding-left:65px}.free-price{padding-top:100px}.try{font-family:"Roboto";font-weight:400;font-size:36px;color:#fff;border:5px solid #fff;border-radius:5px;margin-left:70px;margin-top:100px;text-align:center;padding:17px 50px;line-height:42px}.free-price{display:flex;-moz-column-gap:121px;column-gap:121px}.pay-bg{background:url(0ebeed902a6dd02714f5.png) no-repeat center top}.pay-bg{max-width:500px;height:653px}.pay{font-family:"Roboto";font-weight:700;font-size:44px;color:#fff;padding-top:80px;padding-left:65px;padding-right:65px}.pay-all{font-family:"Roboto";font-weight:500;font-size:24px;color:#f2f2f2;margin-top:50px;padding-left:65px}.plug{font-family:"Roboto";font-weight:400;font-size:36px;color:#fff;border:5px solid #fff;border-radius:5px;margin-left:70px;margin-top:100px;text-align:center;padding:17px 50px;line-height:42px}.fish{position:absolute;left:38px;top:4779px}.viget{display:none}
+@media(max-width: 1555px){.ship{display:none}}@media(max-width: 1481px){.auqa{margin-left:600px}.bubless-item1{top:350px}}@media(max-width: 1438px){.header-subtitle{font-size:22px;width:500px}.header-button{text-align:center;margin-left:418px}}@media(max-width: 1191px){.header-title{font-size:60px}.header-button{margin:0 auto;margin-top:50px}.ship{display:none}.fish{display:none}.viget{display:block;position:absolute;font-family:"Roboto";font-weight:700;font-size:50px;text-align:center;color:#f6f6f6;padding-top:100px}.bubless-list{display:none}.instruction2{margin:0 auto}.instruction2-aqua{margin-left:0}.instruction3{margin:0 auto}.instruction2-aqua{margin-top:160px}.instruction3-aqua{margin-top:160px}.instruction4{margin:0 auto}.instruction4-aqua{margin-left:0;margin-top:150px}.instruction1{margin:0 auto}}@media(max-width: 1190px){.container{width:1000px}.header-img{width:1000px;margin:0 auto;margin-top:50PX}.logo{margin-right:590px;width:150px}.aqua2,.auqa{display:none}.group-list1,.group-list2{display:block}.button-play-icon{margin-left:360px}.prices{height:1700px}.free-price{display:block}.free-bg{margin:0 auto;margin-bottom:37px}.pay-bg{margin:0 auto}}@media(max-width: 1022px){.container{width:900px}.header-img{width:850px}.logo{margin-right:450px;width:150px}.group-bubbles{width:100px;left:13px;top:803px}.header-title{font-size:50px}.header{height:1000px}.button-play-icon{margin-left:330px}}@media(max-width: 903px){.container{width:800px}.logo{margin-right:400px}.header-img{width:650px;margin-top:90px}.header{height:950px}.group-bubbles{left:13px;top:573px}.button-play-icon{margin-left:300px}}@media(max-width: 803px){.container{width:700px}.authorization{display:none}.header-img{width:630px;margin-top:90px}.logo{margin-right:0}.header{height:930px}.button-play-icon{margin-left:240px}.h1-watch{font-size:50px}}@media(max-width: 706px){.viget{font-size:33px;width:500px}.h1-watch{font-style:35px;width:500px;text-align:center;margin-left:50px}}@media(max-width: 701px){.container{width:600px}.header-img{width:550px;margin-top:90px}.h1-watch{margin-left:20px}.header-title{font-size:40px}.header-button{width:250px;margin:70 auto 0 auto;height:70px}.button-text{padding:13px 5px 0 5px;font-size:22px}.header{height:870px}.group-bubbles{left:13px;top:650px}.button-play-icon{margin-left:200px}.h1-watch{font-size:50px}.button-play-icon{margin-left:150px}}@media(max-width: 616px){.container{width:550px}}@media(max-width: 577px){.container{width:520px}.button-play-icon{margin-left:120px}.header-img{width:480px}.header-title{font-size:35px}.header-subtitle{font-size:18px}.instruction1{width:480px}.instruction2{width:480px}.instruction3{width:480px}.instruction4{width:480px}.h1-watch{font-size:35px;margin-left:-10px;width:480px}.viget{width:400px;margin-left:35px}}@media(max-width: 525px){.container{width:485px}.instruction1{width:420px}.instuction-h2-1{font-size:21px}.instuction-h2-2{font-size:21px}.instuction-h2-3{font-size:21px}.instuction-h2-4{font-size:21px}.instruction-h31-1{font-size:17px;width:400px}.instruction-h31-2{font-size:17px;width:400px}.instruction-h31-3{font-size:17px;width:400px}.instruction-h31-4{font-size:17px;width:400px}.instruction2{width:420px}.instruction3{width:420px}.header-subtitle{width:400px}.instruction4{width:420px}}@media(max-width: 517px){.container{width:410px}.header-title{font-size:32px;margin-top:70px}.header-subtitle{font-size:15px;width:400px}.header-img{width:350px}.header{height:800px}.viget{margin-left:-10px}.h1-watch{margin-left:-50px}.button-play-icon{margin-left:70px}.logo{width:60px}.free{font-size:24px}.pay{font-size:24px}.try{margin-left:50px;font-size:24px}.plug{margin-left:50px;font-size:24px}.test{font-size:14px}.pay-all{font-size:14px}}@media(max-width: 469px){.container{width:400px}.h1-watch{margin-left:-10px}.instruction1{width:390px}.instruction2{width:390px}.instruction3{width:390px}.instruction4{width:390px}.instuction-h2-1{font-size:18px}.instuction-h2-2{font-size:18px}.instuction-h2-3{font-size:18px}.instuction-h2-4{font-size:18px}.instruction-h31-1{font-size:15px;width:400px}.instruction-h31-2{font-size:15px;width:400px}.instruction-h31-3{font-size:15px;width:400px}.instruction-h31-4{font-size:15px;width:400px}.h1-watch{margin-left:-55px}.number1{font-size:80px;margin-left:-20px}.number2{font-size:80px;margin-left:-20px}.number3{font-size:80px;margin-left:-20px}.number4{font-size:80px;margin-left:-20px}}@media(max-width: 461px){.h1-watch{font-size:20px;width:300px;margin-left:30px}.instruction1{width:360px}.instruction2{width:360px}.instruction3{width:360px}.instruction4{width:360px}.instuction-h2-1{font-size:15px}.instuction-h2-2{font-size:15px}.instuction-h2-3{font-size:15px}.instuction-h2-4{font-size:15px}.instruction-h31-1{font-size:13px;width:350px;margin-top:-10px}.instruction-h31-2{font-size:13px;width:350px;margin-top:-10px}.instruction-h31-3{font-size:13px;width:350px;margin-top:-10px}.instruction-h31-4{font-size:13px;width:350px;margin-top:-10px}.viget{width:400px;font-size:27px}}@media(max-width: 421px){.container{width:390px}.header-title{font-size:27px;margin-top:70px}.header-subtitle{font-size:13px;width:350px}.header-img{width:350px}.group-bubbles{width:50px;left:10px;top:583px}.header{height:760px}.viget{width:300px;margin-left:40px}}@media(max-width: 392px){.container{width:370px}.logo{margin-right:0;width:50px}.authorization{display:none}.header{height:762px}.instuction-h2-1{font-size:17px}.instuction-h2-2{font-size:17px}.instuction-h2-3{font-size:17px}.instuction-h2-4{font-size:17px}.header-img{width:370px;height:161px;margin-top:140px}.header-title{font-size:24px;margin-top:80px}.header-subtitle{font-size:14px;text-align:center;width:300px}.header-button{width:200px;margin:0 auto;height:60px}.button-text{padding:9px 0;padding-left:10px;font-size:18px;padding-left:10px;margin-top:70px}.group-bubbles{width:40px;height:71px;left:13px;top:573px}.instruction1{width:330px;height:270px}.instruction2{width:330px;height:270px}.instruction3{width:330px;height:270px}.instruction4{width:330px;height:270px}.viget{margin-left:5px}.h1-watch{margin-left:6px}.button-play-icon{margin-left:40px;width:200px}.instruction-h31-1{font-size:10px;width:270px}.instruction-h31-2{font-size:10px;width:300px}.instruction-h31-3{font-size:10px;width:270px}.instruction-h31-4{font-size:10px;width:270px}.number1{font-size:60px;margin-left:-17px}.number2{font-size:60px;margin-left:-17px}.number3{font-size:60px;margin-left:-17px}.number4{font-size:60px;margin-left:-17px}}@media(max-width: 390px){.container{width:340px}.header-img{width:350px;margin:0 auto;margin-top:140px}.header-title{margin-top:30px}.try{margin-left:30px}.plug{margin-left:30px}}@media(max-width: 374px){.header-img{width:310px}.header-title{font-size:20px}.header-subtitle{font-size:13px;width:230px}.logo{width:50px}.instuction-h2-1{margin-right:20px}.instuction-h2-2{margin-right:20px}.instuction-h2-3{margin-right:20px}.instuction-h2-4{margin-right:20px}}@media(max-width: 341px){.container{width:300px}.instruction1{width:290px;height:200px}.instruction2{width:290px;height:200px}.instruction3{width:290px;height:200px}.instruction4{width:290px;height:200px}.number1{font-size:50px;margin-left:-14px;padding-top:10px}.number2{font-size:50px;margin-left:-14px;padding-top:10px}.number3{font-size:50px;margin-left:-14px;padding-top:10px}.number4{font-size:50px;margin-left:-14px;padding-top:10px}.instuction-h2-1{font-size:14px;padding-top:60px}.instuction-h2-2{font-size:14px;padding-top:50px}.instuction-h2-3{font-size:14px;padding-top:50px}.instuction-h2-4{font-size:14px;padding-top:50px}.instruction-h31-1{font-size:8px;width:250px;margin-top:-15px}.instruction-h31-2{font-size:8px;width:250px;margin-top:-15px}.instruction-h31-3{font-size:8px;width:250px;margin-top:-15px}.instruction-h31-4{font-size:8px;width:250px;margin-top:-15px}.viget{width:280px}.h1-watch{width:280px}.header-img{width:280px}.try{margin-left:60px;font-size:14px;padding:10px 15px}.plug{margin-left:60px;font-size:14px;padding:10px 15px;margin-top:50px}.pay{width:280px;font-size:20px;margin-left:-20px;text-align:center}.pay-all{margin-left:-50px}.free{width:260px;margin-left:-40px}.test{margin-left:-50px}.free-bg{height:450px}.pay-bg{height:450px}.prices{height:1200px}}@media(max-width: 305px){.container{width:267px}.header-img{width:240px}.instruction1{width:250px;height:180px}.instruction2{width:250px;height:180px}.instruction3{width:250px;height:180px}.instruction4{width:250px;height:180px}.number1{font-size:50px;margin-right:30px;margin-top:-15px}.number2{font-size:50px;margin-right:30px;margin-top:-15px}.number3{font-size:50px;margin-right:30px;margin-top:-15px}.number4{font-size:50px;margin-right:30px;margin-top:-15px}.viget{font-size:20px;margin-left:-10px}.h1-watch{margin-left:-15px}}@media(max-width: 295px){.container{width:250px}.instruction1{margin-top:-70px}.header-img{width:200px;margin-left:-3px;margin-top:40px}.header-title{font-size:15px;margin-top:10px}.header-subtitle{font-size:10px;margin-left:-11px}.header{height:500px}.button-play-icon{margin-left:10px}.header-subtitle{margin-left:10px}.group-bubbles{width:40px;left:13px;top:400px}.header-button{width:150px;margin:0 auto;height:50px;margin-top:-30px}.button-text{padding:5px 0;font-size:14px;padding-left:6px;margin-top:70px}.h1-watch{margin-left:-20px}}@media(max-width: 263px){.container{width:200px}.header-subtitle h3{width:100px;font-size:6px;margin:0 auto;margin-top:-10px}.logo{width:45px}.header-button{width:100px;margin:0 auto;height:40px}.button-text{font-size:10px;padding-left:4px;margin-top:30px}.buttom-text h3{margin-bottom:15px}.container{width:210px}.header-title{font-size:14px}.header-img{width:200px}.header-subtitle{width:100px;margin:0 auto;margin-top:30px}.instruction1{width:190px;height:70px}}
+.container{
+    width: 1190px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+/* Header */
+
+.header{
+    min-width: 295px;
+    background: linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
+    height: 1080px;
+}
+
+.authorization a{
+    color: #FCFCFC;
+} 
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.authorization{
+    display: flex;
+    column-gap: 29px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 752px;
+}
+.header-nav{
+    padding-top:45px;
+}
+
+.registration{
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.header-img{
+    margin-top: 2px;
+}
+
+.header-title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    color: #FCFCFC;
+}
+
+.header-subtitle{
+    max-width:970px;;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #F2F2F2;
+    margin: 0 auto 0 auto;
+    margin-top: 30px;
+}
+
+.group-bubbles{
+    position: absolute;
+    left: 120px;
+    top: 775px;
+}
+
+.header-button{
+    background: #D75C78;
+    border-radius: 5px;
+    width: 370px;
+    margin: 0 375px;
+    margin-top: 70px;
+}
+
+.button-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding: 20px 59px;
+}
+
+/* Section-instruction */
+
+.instruction{
+    background: linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
+    margin-top: -1px;
+    min-width: 295px;
+}
+
+.bubless-item1{
+    position: absolute;
+    left: 129px;
+    top: 1373px;
+}
+
+.bubless-item2{
+    position: absolute;
+    left: 1325px;
+    top: 2351px;
+    
+}
+
+.bubless-item3{
+    position: absolute;
+    left: 236px;
+    top: 1826px;    
+}
+
+.bubless-item4{
+    position: absolute;
+    left: 1331px;
+    top: 2351px;
+}
+
+.auqa{
+    margin-left: 755px;
+    margin-top:-500px;
+}
+
+
+
+.instruction1{
+    width: 550px;
+    height: 317px;
+    filter: drop-shadow(5px 22px 33px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    background: #523A64;
+}
+.instruction1-aqua{
+ padding-top: 350px;
+}
+
+.number1{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    padding-top:45px ;
+    color:#944B6E;
+    margin-left: -27px;
+}
+
+.number1 b{
+    background: linear-gradient(to right, #BFE2FF,  #944B6E 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.number-instruction1{
+    display: flex;
+}
+
+.instuction-h2-1{
+    padding-top: 85px;
+    padding-left: 7px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #F2F2F2;
+    max-width: 246.14px;
+}
+
+.instruction-h31-1{
+    padding-top: 25px;
+    padding-left: 87px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #F2F2F2;
+}
+
+.instruction2{
+    width: 550px;
+    height: 317px;
+    filter: drop-shadow(5px 22px 33px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    background: #523A64;
+}
+.instruction2-aqua{
+    margin-top: 652px;
+    margin-left: -200px;
+}
+
+.number2{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    padding-top:45px ;
+    color:#944B6E;
+    margin-left: -27px;
+}
+
+.number2 b{
+    background: linear-gradient(to right, #BFE2FF,  #944B6E 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.number-instruction2{
+    display: flex;
+}
+
+.instuction-h2-2{
+    padding-top: 85px;
+    padding-left: 7px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #F2F2F2;
+    max-width: 350px;
+}
+
+.instruction-h31-2{
+    padding-top: 25px;
+    padding-left: 87px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #F2F2F2;
+}
+
+.group-list1{
+    display: flex;
+}
+
+.instuction-h2-3{
+    padding-top: 85px;
+    padding-left: 7px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #F2F2F2;
+    max-width: 246.14px;
+}
+
+.instruction-h31-3{
+    padding-top: 25px;
+    padding-left: 87px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #F2F2F2;
+}
+
+.instruction3{
+    width: 550px;
+    height: 317px;
+    filter: drop-shadow(5px 22px 33px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    background: #523A64;
+}
+.instruction3-aqua{
+    margin-top: -30px;
+}
+
+.number3{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    padding-top:45px ;
+    color:#944B6E;
+    margin-left: -27px;
+}
+
+.number3 b{
+    background: linear-gradient(to right, #BFE2FF,  #944B6E 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.number-instruction3{
+    display: flex;
+}
+
+.instuction-h2-3{
+    padding-top: 85px;
+    padding-left: 7px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #F2F2F2;
+    max-width: 350px;
+}
+
+.instruction-h31-3{
+    padding-top: 25px;
+    padding-left: 87px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #F2F2F2;
+}
+
+.instuction-h2-4{
+    padding-top: 85px;
+    padding-left: 7px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #F2F2F2;
+    max-width: 246.14px;
+}
+
+.instruction-h31-4{
+    padding-top: 25px;
+    padding-left: 87px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #F2F2F2;
+}
+
+.instruction4{
+    width: 550px;
+    height: 262px;
+    filter: drop-shadow(5px 22px 33px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    background: #523A64;
+}
+
+
+.number4{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    padding-top:45px ;
+    color:#944B6E;
+    margin-left: -27px;
+}
+
+.number4 b{
+    background: linear-gradient(to right, #BFE2FF,  #944B6E 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.number-instruction4{
+    display: flex;
+}
+
+.instuction-h2-4{
+    padding-top: 85px;
+    padding-left: 7px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #F2F2F2;
+    max-width: 350px;
+}
+
+.instruction-h31-4{
+    padding-top: 25px;
+    padding-left: 87px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #F2F2F2;
+}
+
+.group-list2{
+    display: flex;
+}
+
+.instruction4-aqua{
+    margin-top: 235px;
+    margin-left: 70px;
+}
+
+.aqua2{
+    position: absolute;
+    left: 44px;
+    top: 2425px;
+}
+
+.h1-watch{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 64px;
+    width: 652px;
+    color: #F6F6F6;
+    margin-top: 286px;
+    padding-bottom: 90px;
+}
+
+/* Button-play */
+
+.button-play{
+    min-width: 300px;
+    background: #414141;
+    height: 655px;
+    min-width: 295px;    
+}
+
+.button-play-icon{
+    padding-top: 219px;
+    margin-left: 430px;
+}
+
+/* footer-prices */
+
+.prices{
+    min-width: 300px;
+    margin-top: -1px;
+    background: linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
+    height: 1400px;
+    min-width: 295px;
+}
+
+.ship{
+    position: absolute;
+    top: 3814px;
+    right: 1px
+}
+
+.free-price{
+    padding-top: 314px;
+}
+
+.free-bg{
+    background: url(2f22f4f7157c3ea0bf5b.png) no-repeat center top;
+}
+
+.free-bg{
+    max-width: 500px;
+    height: 562px;
+}
+
+.free{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    padding-top: 75px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.test{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    color: #F2F2F2;
+    margin-top: 40px;
+    padding-left: 65px;
+
+}
+
+.free-price{
+    padding-top: 100px;
+}
+
+.try{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 17px 50px;
+    line-height: 42px;
+}
+
+.free-price{
+    display: flex;
+    column-gap: 121px;
+}
+
+
+.pay-bg{
+    background: url(0ebeed902a6dd02714f5.png) no-repeat center top;
+}
+
+.pay-bg{    
+    max-width: 500px;
+    height: 653px;
+}
+
+.pay{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+    padding-top: 80px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.pay-all{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    color: #F2F2F2;
+    margin-top: 50px;
+    padding-left: 65px;
+
+}
+
+.plug{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 17px 50px;
+    line-height: 42px;
+}
+
+.fish{
+    position: absolute;
+    left: 38px;
+    top: 4779px;
+
+}
+
+.viget{
+    display: none;
+}
+@media (max-width: 1555px){
+    .ship{
+        display: none;
+    }
+}
+
+@media(max-width: 1481px){
+    .auqa{
+        margin-left: 600px;
+    }
+
+    .bubless-item1{
+        top:350px;
+    }
+}
+
+@media (max-width: 1438px){
+    .header-subtitle{
+        font-size: 22px;
+        width: 500px;
+    }
+
+    .header-button{
+        text-align: center;
+        margin-left: 418px;
+    }
+}
+
+@media (max-width: 1191px){
+    .header-title{
+        font-size: 60px;
+    }
+
+    .header-button{
+
+        margin: 0 auto;
+        margin-top: 50px;
+        
+    }
+
+    .ship{
+        display: none;
+    }
+
+    .fish{
+        display: none;
+    }
+
+    .viget{
+        display: block;
+        position: absolute;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
+        color: #F6F6F6;
+        padding-top: 100px;
+
+    }
+
+    .bubless-list{
+        display: none;
+    }
+
+    .instruction2{
+        margin: 0 auto;
+    }
+
+    .instruction2-aqua{
+        margin-left: 0;
+    }
+
+    .instruction3{
+        margin: 0 auto;
+        
+    }
+
+    .instruction2-aqua{
+        margin-top: 160px;
+    }
+
+    .instruction3-aqua{
+        margin-top: 160px;
+    }
+
+    .instruction4{
+        margin: 0 auto;
+    }
+
+    .instruction4-aqua{
+        margin-left: 0;
+        margin-top: 150px;
+    }
+
+
+    .instruction1{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1190px){
+
+    .container{
+        width: 1000px;
+    }
+    .header-img{
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 50PX;
+    }
+
+    .logo{
+        margin-right: 590px;
+        width: 150px;
+    }
+
+    .aqua2, .auqa{
+        display: none;
+    }
+
+
+    .group-list1, .group-list2{
+        display: block;
+    }
+
+    .button-play-icon{
+        margin-left: 360px
+    }
+
+    .prices{
+        height: 1700px;
+    }
+
+    .free-price{
+        display: block;
+    }
+
+    .free-bg{
+        margin:0 auto;
+        margin-bottom: 37px;
+    }
+
+    .pay-bg{
+        margin:0 auto;
+    }
+}
+
+@media (max-width:1022px){
+    .container{
+        width: 900px;
+    }
+    .header-img{
+        width: 850px;
+    }
+
+    .logo{
+        margin-right: 450px;
+        width: 150px;
+    }
+
+    .group-bubbles{
+        width: 100px;
+        left: 13px;
+        top: 803px;
+    }
+
+    .header-title{
+        font-size: 50px;
+    }
+
+    .header{
+        height: 1000px;
+    }
+
+    .button-play-icon{
+        margin-left: 330px;
+    }
+}
+
+@media (max-width:903px){
+
+    .container{
+        width: 800px;
+    }
+    .logo{
+        margin-right: 400px;
+    }
+
+    .header-img{
+        width: 650px;
+        margin-top: 90px;
+    }
+
+    .header{
+        height: 950px;
+    }
+
+    .group-bubbles{
+        left: 13px;
+        top: 573px;
+    }
+    .button-play-icon{
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 803px){
+    .container{
+        width: 700px;
+    }
+    .authorization{
+        display: none;
+    }
+
+    .header-img{
+        width: 630px;
+        margin-top: 90px;
+    }
+
+    .logo{
+        margin-right: 0;
+    }
+    .header{
+        height: 930px;
+    }
+
+    .button-play-icon{
+        margin-left: 240px;
+    }
+
+    .h1-watch{
+        font-size: 50px;
+    }
+
+}
+
+@media(max-width: 706px){
+
+
+    .viget{
+        font-size: 33px;
+        width: 500px;
+    }
+
+    .h1-watch{
+        font-style: 35px;
+        width: 500px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+}
+
+@media(max-width:701px){
+    .container{
+        width: 600px;
+    }
+
+    .header-img{
+        width: 550px;
+        margin-top: 90px;
+    }
+
+    .h1-watch{
+        margin-left: 20px;
+    }
+
+    .header-title{
+        font-size: 40px;
+    }
+
+    .header-button{
+        width: 250px;
+        margin: 70 auto 0 auto;
+        height: 70px;
+        
+    }
+
+    .button-text{
+        padding: 13px 5px 0 5px;
+        font-size: 22px;
+    }
+
+    .header{
+        height: 870px;
+    }
+    .group-bubbles{
+        left: 13px;
+        top: 650px;
+    }
+
+    .button-play-icon{
+        margin-left: 200px;
+    }
+
+    .h1-watch{
+        font-size: 50px;
+    }
+
+    .button-play-icon{
+        margin-left: 150px;
+    }
+
+}
+
+@media(max-width:616px){
+    .container{
+        width: 550px;
+    }
+}
+
+@media(max-width: 577px){
+    .container{
+        width:  520px;
+    }
+
+    .button-play-icon{
+        margin-left: 120px;
+    }
+
+    .header-img{
+        width: 480px;
+    }
+
+    .header-title{
+        font-size: 35px;
+    }
+
+    .header-subtitle{
+        font-size: 18px;
+    }
+
+    .instruction1 {
+        width: 480px;
+    }
+
+
+    .instruction2 {
+        width: 480px;
+    }
+
+
+    .instruction3 {
+        width: 480px;
+    }
+
+
+    .instruction4 {
+        width: 480px;
+    }
+
+
+    .h1-watch{
+        font-size: 35px;
+        margin-left: -10px;
+        width: 480px;
+    }
+
+    .viget{
+        width: 400px;
+        margin-left: 35px;
+    }
+}
+
+@media(max-width: 525px){
+    .container{
+        width: 485px;
+    }
+    .instruction1 {
+        width: 420px;
+    }
+
+    .instuction-h2-1{
+        font-size:21px ;
+    }
+
+    .instuction-h2-2{
+        font-size:21px ;
+    }
+
+    .instuction-h2-3{
+        font-size:21px ;
+    }
+
+    .instuction-h2-4{
+        font-size:21px ;
+    }
+
+    .instruction-h31-1{
+        font-size: 17px;
+        width: 400px;
+    }
+    .instruction-h31-2{
+        font-size: 17px;
+        width: 400px;
+    }
+    .instruction-h31-3{
+        font-size: 17px;
+        width: 400px;
+    }   
+    .instruction-h31-4{
+        font-size: 17px;
+        width: 400px;
+    }
+
+    .instruction2 {
+        width: 420px;
+    }
+
+
+    .instruction3 {
+        width: 420px;
+    }
+
+    .header-subtitle{
+        width: 400px;
+    }
+
+    .instruction4 {
+        width: 420px;
+    }
+}
+
+@media(max-width: 517px){
+    .container{
+        width: 410px;
+    }
+
+    .header-title{
+        font-size: 32px;
+        margin-top: 70px;
+    }
+
+    .header-subtitle{
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .header-img{
+        width: 350px;
+    }
+
+    .header{
+        height: 800px;
+    }
+
+    .viget{
+        margin-left: -10px;
+    }
+
+    .h1-watch{
+        margin-left: -50px;
+    }
+
+    .button-play-icon{
+        margin-left: 70px;
+    }
+
+    .logo{
+        width: 60px;
+    }
+
+    .free{
+    font-size: 24px;
+    }
+
+    .pay{
+        font-size: 24px;
+    }
+
+    .try{
+        margin-left:50px;
+        font-size: 24px;
+    }
+
+    .plug{
+        margin-left: 50px;
+        font-size: 24px;
+    }
+
+    .test{
+        font-size: 14px;
+    }
+
+    .pay-all{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:469px){
+    .container{
+        width: 400px;
+    }
+    .h1-watch{
+        margin-left: -10px  ;
+    }
+
+    .instruction1 {
+        width: 390px;
+    }
+
+    .instruction2 {
+        width: 390px;
+    }
+
+    .instruction3 {
+        width: 390px;
+    }
+
+    .instruction4 {
+        width: 390px;
+    }
+
+    .instuction-h2-1{
+        font-size:18px ;
+    }
+
+    .instuction-h2-2{
+        font-size:18px ;
+    }
+
+    .instuction-h2-3{
+        font-size:18px ;
+    }
+
+    .instuction-h2-4{
+        font-size:18px ;
+    }
+
+    .instruction-h31-1{
+        font-size: 15px;
+        width: 400px;
+    }
+    .instruction-h31-2{
+        font-size: 15px;
+        width: 400px;
+    }
+    .instruction-h31-3{
+        font-size: 15px;
+        width: 400px;
+    }   
+    .instruction-h31-4{
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .h1-watch{
+        margin-left: -55px;
+    }
+
+    .number1{
+        font-size: 80px;
+        margin-left: -20px;
+    }
+
+    .number2{
+        font-size: 80px;
+        margin-left: -20px;
+    }
+
+    .number3{
+        font-size: 80px;
+        margin-left: -20px;
+    }
+    .number4{
+        font-size: 80px;
+        margin-left: -20px;
+    }
+
+}
+
+@media(max-width: 461px){
+
+    .h1-watch{
+        font-size: 20px;
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .instruction1 {
+        width: 360px;
+    }
+
+    .instruction2 {
+        width: 360px;
+    }
+
+    .instruction3 {
+        width: 360px;
+    }
+
+    .instruction4 {
+        width: 360px;
+    }
+
+    .instuction-h2-1{
+        font-size:15px ;
+    }
+
+    .instuction-h2-2{
+        font-size:15px ;
+    }
+
+    .instuction-h2-3{
+        font-size:15px ;
+    }
+
+    .instuction-h2-4{
+        font-size:15px ;
+    }
+
+    .instruction-h31-1{
+        font-size: 13px;
+        width: 350px;
+        margin-top: -10px;
+    }
+    .instruction-h31-2{
+        font-size: 13px;
+        width: 350px;
+        margin-top: -10px;
+    }
+    .instruction-h31-3{
+        font-size: 13px;
+        width: 350px;
+        margin-top: -10px;
+    }   
+    .instruction-h31-4{
+        font-size: 13px;
+        width: 350px;
+        margin-top: -10px;
+    }
+
+    .viget{
+        width:400px;
+        font-size: 27px;
+    }
+}
+
+@media(max-width: 421px){
+    .container{
+        width: 390px;
+    }
+
+    .header-title{
+        font-size: 27px;
+        margin-top: 70px;
+    }
+
+    .header-subtitle{
+        font-size: 13px;
+        width: 350px;
+    }
+
+    .header-img{
+        width: 350px;
+    }
+
+    .group-bubbles{
+        width: 50px;
+        left: 10px;
+        top: 583px;
+    }
+    
+    .header{
+        height: 760px;
+    }
+
+    .viget{
+        width: 300px;
+        margin-left: 40px;
+    }
+
+}
+
+@media (max-width: 392px) {
+    .container{
+        width: 370px;
+    }
+
+    .logo{
+        margin-right: 0;
+        width: 50px;
+    }
+
+    .authorization{
+        display: none;
+    }
+
+    .header{
+
+        height: 762px;
+    }
+
+
+    .instuction-h2-1{
+        font-size:17px ;
+    }
+
+    .instuction-h2-2{
+        font-size:17px ;
+    }
+
+    .instuction-h2-3{
+        font-size:17px ;
+    }
+
+    .instuction-h2-4{
+        font-size:17px ;
+    }
+    .header-img{
+        width: 370px;
+        height: 161px;
+        margin-top: 140px;
+
+    }
+
+    .header-title{
+        font-size: 24px;
+        margin-top: 80px;
+    }
+
+    .header-subtitle{
+        font-size: 14px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .header-button{
+        width: 200px;
+        margin: 0 auto;
+        height: 60px;
+        
+    }
+
+    .button-text{
+        padding: 9px 0;
+        padding-left: 10px;
+        font-size: 18px;
+        padding-left: 10px;
+        margin-top: 70px;
+    }
+
+    .group-bubbles{
+        width: 40px;
+        height: 71px;
+        left: 13px;
+        top: 573px;
+    }
+
+    .instruction1 {
+        width: 330px;
+        height: 270px;
+    }
+
+    .instruction2 {
+        width: 330px;
+        height: 270px;
+    }
+
+    .instruction3 {
+        width: 330px;
+        height: 270px;
+    }
+
+    .instruction4 {
+        width: 330px;
+        height: 270px;
+    }
+
+    .viget{
+        margin-left: 5px;
+    }
+
+    .h1-watch{
+        margin-left: 6px;
+    }
+
+    .button-play-icon{
+        margin-left: 40px;
+        width: 200px;
+    }
+
+
+    .instruction-h31-1{
+        font-size: 10px;
+        width: 270px;
+    }
+    .instruction-h31-2{
+        font-size: 10px;
+        width:300px;
+    }
+    .instruction-h31-3{
+        font-size: 10px;
+        width: 270px;
+    }   
+    .instruction-h31-4{
+        font-size: 10px;
+        width: 270px;
+    }
+
+    .number1{
+        font-size: 60px;
+        margin-left: -17px;
+    }
+
+    .number2{
+        font-size: 60px;
+        margin-left: -17px;
+    }
+
+    .number3{
+        font-size: 60px;
+        margin-left: -17px;
+    }
+    .number4{
+        font-size: 60px;
+        margin-left: -17px;
+    }
+
+}
+
+@media(max-width: 390px){
+    .container{
+        width: 340px;
+    }
+
+    .header-img{
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 140px;
+    }
+    .header-title{
+        margin-top: 30px;
+    }
+
+    .try{
+        margin-left: 30px;
+    }
+
+    .plug{
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:374px){
+    .header-img{
+        width: 310px;
+    }
+
+    .header-title{
+        font-size: 20px;
+    }
+
+    .header-subtitle{
+        font-size: 13px;
+        width: 230px;
+    }
+
+    .logo{
+        width: 50px;
+    }
+
+    .instuction-h2-1{
+        margin-right: 20px;
+    }
+    .instuction-h2-2{
+        margin-right: 20px;
+    }
+    .instuction-h2-3{
+        margin-right: 20px;
+    }
+    .instuction-h2-4{
+        margin-right: 20px;
+    }
+
+    
+}
+
+@media (max-width:341px){
+    .container{
+        width: 300px;
+    }
+
+    .instruction1 {
+        width: 290px;
+        height: 200px;
+    }
+
+    .instruction2 {
+        width: 290px;
+        height: 200px;
+    }
+
+    .instruction3 {
+        width: 290px;
+        height: 200px;
+    }
+
+    .instruction4 {
+        width: 290px;
+        height: 200px;
+    }
+
+    .number1{
+        font-size: 50px;
+        margin-left: -14px;
+        padding-top: 10px;
+    }
+
+    .number2{
+        font-size: 50px;
+        margin-left: -14px;
+        padding-top: 10px;
+    }
+
+    .number3{
+        font-size: 50px;
+        margin-left: -14px;
+        padding-top: 10px;
+    }
+    .number4{
+        font-size: 50px;
+        margin-left: -14px;
+        padding-top: 10px;
+    }
+    .instuction-h2-1{
+        font-size:14px ;
+        padding-top: 60px;
+    }
+
+    .instuction-h2-2{
+        font-size:14px ;
+        padding-top: 50px;
+    }
+
+    .instuction-h2-3{
+        font-size:14px ;
+        padding-top: 50px;
+    }
+
+    .instuction-h2-4{
+        font-size:14px ;
+        padding-top: 50px;
+    }
+
+    .instruction-h31-1{
+        font-size: 8px;
+        width: 250px;
+        margin-top: -15px;
+    }
+    .instruction-h31-2{
+        font-size: 8px;
+        width: 250px;
+        margin-top: -15px;
+    }
+    .instruction-h31-3{
+        font-size: 8px;
+        width: 250px;
+        margin-top: -15px;
+    }   
+    .instruction-h31-4{
+        font-size: 8px;
+        width: 250px;
+        margin-top: -15px;
+    }
+
+    .viget{
+        width: 280px;
+    }
+
+    .h1-watch{
+        width: 280px;
+    }
+
+    .header-img{
+        width: 280px;
+    }
+
+    .try{
+        margin-left: 60px;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .plug{
+        margin-left: 60px;
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 50px;
+    }
+
+    .pay{
+        width:280px;
+        font-size: 20px;
+        margin-left: -20px;
+        text-align: center;
+    }
+
+    .pay-all{
+        margin-left: -50px;
+    }
+
+    .free{
+        width:260px;
+        margin-left: -40px;
+    }
+
+    .test{
+        margin-left: -50px;
+    }
+
+    .free-bg{
+        height: 450px;
+    }
+    .pay-bg{
+        height: 450px;
+    }
+
+    .prices{
+        height: 1200px;
+    }
+
+}
+
+@media(max-width: 305px){
+    .container{
+        width: 267px;
+    }
+
+    .header-img{
+        width: 240px ;
+    }
+
+    .instruction1 {
+        width: 250px;
+        height: 180px;
+    }
+
+    .instruction2 {
+        width: 250px;
+        height: 180px;
+    }
+
+    .instruction3 {
+        width: 250px;
+        height: 180px;
+    }
+
+    .instruction4 {
+        width: 250px;
+        height: 180px;
+    }
+
+    .number1{
+        font-size: 50px;
+        margin-right: 30px;
+        margin-top: -15px;
+    }
+
+    .number2{
+        font-size: 50px;
+        margin-right: 30px;
+        margin-top: -15px;
+    }
+
+    .number3{
+        font-size: 50px;
+        margin-right: 30px;
+        margin-top: -15px;
+    }
+    .number4{
+        font-size: 50px;
+        margin-right: 30px;
+        margin-top: -15px;
+    }
+
+    .viget{
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .h1-watch{
+        margin-left: -15px;
+    }
+
+
+}
+
+@media(max-width: 295px){
+    .container{
+        width: 250px;
+    }
+
+    .instruction1{
+        margin-top: -70px;
+    }
+
+    .header-img{
+        width: 200px;
+        margin-left: -3px;
+        margin-top: 40px;
+    }
+
+    .header-title{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .header-subtitle{
+        font-size: 10px;
+        margin-left: -11px;
+        
+    }
+    
+    .header{
+        height: 500px;
+    }
+
+    .button-play-icon{
+        margin-left: 10px;
+    }
+    .header-subtitle{
+        margin-left: 10px;
+    }
+
+    .group-bubbles{
+        width: 40px;
+        left: 13px;
+        top: 400px;
+    }
+
+    .header-button{
+        width: 150px;
+        margin: 0 auto;
+        height: 50px;
+        margin-top: -30px;
+    }
+
+    .button-text{
+        padding: 5px 0;
+        font-size: 14px;
+        padding-left: 6px;
+        margin-top: 70px;
+    }
+
+    .h1-watch{
+        margin-left: -20px;
+    }
+
+}
+
+@media(max-width: 263px){
+    .container{
+        width: 200px;
+    }
+    .header-subtitle h3{
+        width: 100px;
+        font-size: 6px;
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    .logo{
+        width:45px;
+    }
+
+    .header-button{
+        width: 100px;
+        margin: 0 auto;
+        height: 40px;
+    }
+
+    .button-text{
+        font-size: 10px;
+        padding-left: 4px;
+        margin-top: 30px;
+    }
+
+    .buttom-text h3{
+        margin-bottom: 15px;
+    }
+    .container{
+        width: 210px;
+    }
+
+    .header-title{
+        font-size: 14px;
+    }
+    .header-img{
+        width: 200px;
+    }
+
+    .header-subtitle{
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+
+    .instruction1{
+        width: 190px;
+        height: 70px;
+    }
+
+
+}
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	/*outline: none;*/
+}
+
+a:focus,
+a:active {
+	/* outline: none;*/
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    /* color: inherit; */
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover  {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+
